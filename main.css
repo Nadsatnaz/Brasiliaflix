@@ -11,15 +11,16 @@
 
 body{
     background-color: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
     color: white;
 }
 
 header .container{
-    display: flex;
-    flex-direction:initial;
-    align-items: center;
-    justify-content:flex-start;
+        position: fixed;
+        width: 100%;
+        z-index: 10;
+        display: flex;
+        align-items: center;
 }
 
 header .logo{
@@ -33,7 +34,6 @@ header .logo{
  header nav a{
      text-decoration: none;
      color: #aaa;
-     margin right: 10px;
  }
 
  header nav a:hover{
@@ -52,26 +52,48 @@ header .logo{
     justify-content: center;
     align-items:flex-start;
  }
+ .inicio{
+     margin-right: 20px;
+ }
+ .series{
+     margin-right: 20px;
+ }
+ .filmes{
+     margin-right: 20px;
+ }
+
+ .litfuc{
+     margin-left: 600px;
+ }
+ .search{
+     margin-right: 20px;
+     font-size: 20px;
+ }
+ .lembrete{
+     font-size: 20px;
+ }
+
+.titulo{
+
+    margin-top: 2%;
+    margin-left: 25px;
+}
+
 .infos{
     margin-left: 35px;
     display: flex;
     
 }
-
  .descricao{
      margin-bottom: 30px;
      margin-top: 50px;
-     margin-left: 30px;
+     margin-left: 35px;
      margin-inline-end: 60%;
-     font-size: 20px;
+     font-size: 17px;
+     text-align: justify;
      
      }
 
- .titulo{
-
-     margin-top: 2%;
-     margin-left: 25px;
- }
 
  .botao {
      background-color: rgba(0,0,0, .50);
