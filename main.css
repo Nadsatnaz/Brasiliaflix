@@ -17,9 +17,9 @@ body{
 
 header .container{
     display: flex;
-    flex-direction: row;
+    flex-direction:initial;
     align-items: center;
-    justify-content: space-between;
+    justify-content:flex-start;
 }
 
 header .logo{
@@ -27,6 +27,7 @@ header .logo{
     color: var(--vermelho);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 40px;
+    margin-right: 50px;
 }
 
  header nav a{
@@ -42,7 +43,7 @@ header .logo{
 
  .main-conteudo{
      font-size: 16px;
-     background: url(img/CPICOVER.jpg);
+     background: url(img/CPICOVER-2.jpg);
 
     height: 600px;
     background-size: cover;
@@ -51,25 +52,31 @@ header .logo{
     justify-content: center;
     align-items:flex-start;
  }
-
+.infos{
+    margin-left: 35px;
+    display: flex;
+    
+}
 
  .descricao{
      margin-bottom: 30px;
-     margin-top: 10px;
+     margin-top: 50px;
      margin-left: 30px;
- }
+     margin-inline-end: 60%;
+     font-size: 20px;
+     
+     }
 
  .titulo{
-     font-size: 65px;
-     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-     margin-top: 17%;
-     margin-left: 30px;
+
+     margin-top: 2%;
+     margin-left: 25px;
  }
 
  .botao {
      background-color: rgba(0,0,0, .50);
      border: none;
-     color: white;
+     color:white;
 
      padding: 20px;
      margin-right: 10px;
