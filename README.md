@@ -1,4 +1,4 @@
-## brasiliaflix
+## BRASILIAFLIX
 
 Clone da Netflix, com o tema da política nacional. Feito com HTML, CSS, JavaScript e uso de Bootstrap
 
